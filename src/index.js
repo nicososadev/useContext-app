@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import { SimpleForm } from './components/02-useEffect/SimpleForm';
+// import { FormCustomHook } from './components/02-useEffect/FormCustomHook';
+// import { MultipleHooks } from './components/03-examples/MultipleHooks';
+// import { FocusScreen } from './components/04-useRef/FocusScreen';
+// import { RealRef } from './components/04-useRef/RealRef';
+// import { Layout } from './components/05-useLayoutEffect/LayoutEffect';
+// import { Memorize } from './components/06-memos/Memorize';
+// import { HooksApp } from './HooksApp';
+// import { CounterApp } from './components/01-useState/CounterApp';
+// import { CounterCustomHook } from './components/01-useState/CounterCustomHook';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render( <Padre />, document.getElementById('root') );
