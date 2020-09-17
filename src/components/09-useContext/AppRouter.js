@@ -14,7 +14,7 @@ export const AppRouter = () => {
                 <NavBar />
                 <div className="container">
                     <Switch>
-                        <Route exact  path="/" component={ HomePage }/>
+                        <Route exact  path="/useContext-app" component={ HomePage }/>
 
                         <Route exact path="/login" component={ LoginPage }/>
                         <Route exact path="/about" component={ AboutPage }/>

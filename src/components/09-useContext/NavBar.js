@@ -10,7 +10,7 @@ export const NavBar = () => {
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <NavLink exact activeClassName="active" to="/" className="nav-item nav-link">Home</NavLink>
+                    <NavLink exact activeClassName="active" to="/useContext-app" className="nav-item nav-link">Home</NavLink>
                     <NavLink exact activeClassName="active" to="/about" className="nav-item nav-link">About</NavLink>
                     <NavLink exact activeClassName="active" to="/login" className="nav-item nav-link">Login</NavLink>
                 </div>
