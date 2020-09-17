@@ -6,7 +6,7 @@ export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 
-            <Link className="navbar-brand" to="/">useContext</Link>
+            <Link className="navbar-brand" to="/useContext-app">useContext</Link>
 
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
