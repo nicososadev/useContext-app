@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente ToDoApp Debe mostrarse correctamente 1`] = `
+<div>
+  <h1>
+    ToDo App
+  </h1>
+  <hr />
+  <h2>
+    ToDo List - 
+    0
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <ToDoList
+        handleComplete={[Function]}
+        handleDelete={[Function]}
+        toDos={Array []}
+      />
+    </div>
+    <div
+      className="col-5"
+    >
+      <ToDoAdd
+        handleAdd={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

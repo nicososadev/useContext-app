@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente ToDoAdd Debe mostrarse correctamente  1`] = `
+<Fragment>
+  <h4>
+    Agregar ToDo
+  </h4>
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Nueva Tarea"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-outline-primary mt-3 btn-block"
+      type="submit"
+    >
+      Agregar
+    </button>
+  </form>
+</Fragment>
+`;
